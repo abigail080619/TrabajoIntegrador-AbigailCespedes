@@ -10,11 +10,15 @@
     <h1>Lista de Empleados</h1>
 
     <form id="formulario">
-        <input type="text" id="input-texto" placeholder="escribi algo" />
-        <button type="submit">Agregar</button>
-    </form> 
+        <input type="text" id="nombre" placeholder="Nombre" required />
+        <input type="text" id="dni" placeholder="DNI" required />
+        <input type="number" id="sueldo" placeholder="Sueldo Bruto" required />
+        <input type="text" id="cargo" placeholder="Cargo (opcional)" />
+
+        <button type="submit">Agregar empleado</button>
+    </form>
 
     <div id="lista" class="lista"></div>
-    
+    <script src="app.js"></script>
  </body>
 </html>
